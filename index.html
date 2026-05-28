@@ -1,95 +1,414 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>1인 마케터를 위한 SEO 자동화 스쿨 | 프로그램스쿨</title>
-<meta name="description" content="코딩 없는 4-Agent 루프 활용법, 블로그 대량 생성 노하우. 1인 기업을 위한 검색엔진 상위노출 자동화 교육 과정.">
-<link rel="canonical" href="https://program-school.pages.dev">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}:root{--p:#101827;--g:#fcd34d;--a:#fb923c;--t:#f9fafb}body{font-family:'Noto Sans KR',sans-serif;background:var(--p);color:var(--t);line-height:1.8}a{color:inherit;text-decoration:none}
-.nv{position:fixed;top:0;left:0;right:0;z-index:99;background:rgba(16,24,39,.97);backdrop-filter:blur(10px);padding:.8rem 2rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(252,211,77,.2)}.nl{font-size:1rem;font-weight:800;color:var(--g)}.nm{display:flex;gap:1.5rem;list-style:none}.nm a{font-size:.82rem;color:rgba(249,250,251,.6);transition:.2s}.nm a:hover{color:var(--g)}
-.hero{padding:8rem 2rem 4rem;text-align:center;background:linear-gradient(160deg,#101827,#27272a,#101827)}.hb2{display:inline-block;padding:.3rem 1rem;border:1px solid var(--g);border-radius:99px;font-size:.68rem;color:var(--g);letter-spacing:.1em;margin-bottom:1rem}
-.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:900;line-height:1.2;margin-bottom:1rem}.hero h1 em{font-style:normal;color:var(--a)}
-.hsub{font-size:.9rem;color:rgba(249,250,251,.6);max-width:480px;margin:0 auto}
-.w{max-width:860px;margin:0 auto;padding:4rem 2rem}.tg{font-size:.68rem;letter-spacing:.12em;color:var(--g);margin-bottom:.5rem}.st{font-size:clamp(1.3rem,2.5vw,1.8rem);font-weight:800;margin-bottom:.6rem}.sd{color:rgba(249,250,251,.6);font-size:.88rem;margin-bottom:2rem}
-.article{background:rgba(255,255,255,.02);border:1px solid rgba(252,211,77,.2);border-radius:1rem;padding:2.5rem;margin-bottom:2rem}
-.article h2{font-size:1.15rem;font-weight:800;color:var(--g);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:1px solid rgba(252,211,77,.2)}
-.article h3{font-size:.95rem;font-weight:700;color:var(--a);margin:1.5rem 0 .5rem}
-.article p{font-size:.86rem;color:rgba(249,250,251,.8);margin-bottom:.8rem}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem;margin:2rem 0}
-.card{background:rgba(255,255,255,.03);border:1px solid rgba(252,211,77,.2);border-radius:.8rem;padding:1.5rem;transition:.3s}.card:hover{border-color:var(--a);transform:translateY(-3px)}.icon{font-size:1.8rem;margin-bottom:.6rem}.card h3{font-size:.92rem;font-weight:700;color:var(--g);margin-bottom:.4rem}.card p{font-size:.8rem;color:rgba(249,250,251,.6)}
-footer{padding:1.5rem;text-align:center;border-top:1px solid rgba(252,211,77,.2);font-size:.72rem;color:rgba(249,250,251,.4)}
-</style>
-<meta property="og:image" content="og-image.svg">
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4-에이전트 영구 최적화 루프 아카데미 — TOKYO PROGRAMMING SCHOOL</title>
+  <meta name="description" content="Scouter, Architect, Ghost, Closer. 인간의 수작업을 초월한 4개 자율 에이전트 루프 자동화 코딩 스쿨. 무한 최적화 아카데미.">
+  <link rel="canonical" href="https://program-school.online/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="4-에이전트 영구 최적화 루프 아카데미 — TOKYO PROGRAMMING SCHOOL">
+  <meta property="og:description" content="Scouter, Architect, Ghost, Closer. 인간의 수작업을 초월한 4개 자율 에이전트 루프 자동화 코딩 스쿨. 무한 최적화 아카데미.">
+  <meta property="og:url" content="https://program-school.online/">
+  <meta property="og:type" content="website">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Outfit:wght@400;800;900&family=Noto+Sans+KR:wght@300;500;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-dark: #08080a;
+      --bg-panel: #0f0f13;
+      --accent-orange: #ff5500;
+      --text-white: #ffffff;
+      --text-gray: #888899;
+      --border-brutal: 2px solid #ff5500;
+      --border-soft: 1px solid rgba(255, 85, 0, 0.2);
+      --font-mono: 'Share Tech Mono', monospace;
+      --font-swiss: 'Outfit', sans-serif;
+      --font-kr: 'Noto Sans KR', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+      font-family: var(--font-swiss), var(--font-kr);
+      line-height: 1.6;
+      letter-spacing: -0.01em;
+      overflow-x: hidden;
+    }
+
+    /* Grid Overlay background */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: 
+        linear-gradient(rgba(255, 85, 0, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 85, 0, 0.02) 1px, transparent 1px);
+      background-size: 30px 30px;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+
+    /* Brutalist Sticky Header */
+    header {
+      border-bottom: var(--border-brutal);
+      padding: 20px 0;
+      background: var(--bg-dark);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: var(--font-mono);
+      font-weight: 900;
+      font-size: 1.3rem;
+      letter-spacing: 0.05em;
+      color: var(--accent-orange);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .logo span {
+      color: var(--text-white);
+    }
+
+    nav {
+      display: flex;
+      gap: 30px;
+    }
+
+    nav a {
+      font-family: var(--font-mono);
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent-orange);
+      text-shadow: 0 0 5px var(--accent-orange);
+    }
+
+    /* Hero */
+    .hero {
+      padding: 100px 0 60px 0;
+    }
+
+    .hero-badge {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--accent-orange);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pulse-square {
+      width: 8px; height: 8px;
+      background: var(--accent-orange);
+      animation: pulse 1s infinite alternate;
+    }
+
+    @keyframes pulse {
+      from { opacity: 0.4; }
+      to { opacity: 1; }
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 7vw, 4rem);
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 1.0;
+      letter-spacing: -0.04em;
+      margin-bottom: 30px;
+    }
+
+    h1 span {
+      color: var(--accent-orange);
+    }
+
+    .hero-panel {
+      border: var(--border-brutal);
+      background: var(--bg-panel);
+      padding: 40px;
+      box-shadow: 8px 8px 0px var(--accent-orange);
+      margin-top: 40px;
+    }
+
+    .hero-panel p {
+      font-size: 1rem;
+      color: var(--text-white);
+      font-weight: 300;
+      line-height: 1.7;
+    }
+
+    .btn-orange {
+      display: inline-block;
+      border: var(--border-brutal);
+      background: var(--accent-orange);
+      color: var(--bg-dark);
+      padding: 14px 35px;
+      font-family: var(--font-mono);
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.1em;
+      margin-top: 30px;
+      transition: all 0.2s;
+    }
+
+    .btn-orange:hover {
+      background: var(--bg-dark);
+      color: var(--accent-orange);
+      box-shadow: 0 0 15px var(--accent-orange);
+    }
+
+    /* 4-Agent Pipeline Nodule Diagram */
+    .pipeline-section {
+      padding: 80px 0;
+      border-top: var(--border-soft);
+    }
+
+    .section-title {
+      font-family: var(--font-mono);
+      font-size: 1.8rem;
+      color: var(--accent-orange);
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+
+    .pipeline-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .agent-card {
+      border: var(--border-soft);
+      background: var(--bg-panel);
+      padding: 30px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .agent-card:hover {
+      border: var(--border-brutal);
+      box-shadow: 0 0 10px rgba(255, 85, 0, 0.15);
+    }
+
+    .agent-num {
+      font-family: var(--font-mono);
+      font-size: 2.5rem;
+      color: rgba(255, 85, 0, 0.15);
+      position: absolute;
+      top: 10px; right: 15px;
+      font-weight: 900;
+    }
+
+    .agent-name {
+      font-family: var(--font-mono);
+      font-size: 1.15rem;
+      color: var(--text-white);
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .agent-desc {
+      font-size: 0.8rem;
+      color: var(--text-gray);
+      line-height: 1.6;
+    }
+
+    /* Terminal School simulator */
+    .terminal-box {
+      background: var(--bg-panel);
+      border: var(--border-brutal);
+      padding: 40px;
+      font-family: var(--font-mono);
+      margin-bottom: 80px;
+    }
+
+    .terminal-header {
+      border-bottom: var(--border-soft);
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+      color: var(--accent-orange);
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+    }
+
+    .terminal-body {
+      font-size: 0.85rem;
+      color: var(--text-white);
+    }
+
+    .terminal-line {
+      margin-bottom: 10px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .terminal-line span.cyan {
+      color: #00ffff;
+    }
+
+    .terminal-line span.orange {
+      color: var(--accent-orange);
+    }
+
+    /* Footer */
+    footer {
+      border-top: var(--border-brutal);
+      padding: 60px 0 40px 0;
+      text-align: left;
+      font-family: var(--font-mono);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 50px;
+    }
+
+    .footer-links a {
+      color: var(--accent-orange);
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .pipeline-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      nav { display: none; }
+    }
+  </style>
 </head>
 <body>
-<nav class="nv"><div class="nl">🎓 프로그램스쿨</div><ul class="nm"><li><a href="#course">교육과정</a></li><li><a href="#agents">에이전트</a></li><li><a href="#scale">스케일업</a></li></ul></nav>
 
-<section class="hero">
-
-<!-- SEO Visual 1: 4-에이전트 루프 자동화 프로그램 코딩 스쿨 Editorial Apple Hero -->
-<div class="seo-visual-hero" role="img" aria-label="신뢰할 수 있는 서비스 —  4-에이전트 루프 자동화 프로그램 코딩 스쿨" 
-     style="width:100%;padding:64px 24px;background:#faf9f6;border-bottom:1px solid #e5e5e0;text-align:left;margin:32px 0">
-  <div style="max-width:800px;margin:0 auto">
-    <div style="font-family:serif;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.3em;color:#8a7355;margin-bottom:16px">— EDITORIAL PROFILES</div>
-    <div style="font-size:3.5em;line-height:1.1;font-weight:400;font-family:serif;color:#1c1c1e;letter-spacing:-0.03em;margin-bottom:16px">4-에이전트 루프 자동화 프로그램 코딩 스쿨</div>
-    <p style="font-size:1.05rem;line-height:1.6;color:#1c1c1e;opacity:0.85;max-width:600px">신뢰할 수 있는 서비스에 관한 독립적이고 깊이 있는 정보를 제공합니다.</p>
-  </div>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"4-에이전트 루프 자동화 프로그램 코딩 스쿨","description":"신뢰할 수 있는 서비스","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
-</div>
-<div class="hb2">✦ 1인 마케터 탈출 프로젝트 ✦</div>
-<h1>코딩 없는 SEO<br><em>자동화 스쿨</em></h1>
-<p class="hsub">복잡한 프로그래밍 지식 없이도 AI 에이전트를 다루는 법.<br>1인 기업을 100인 기업처럼 만드는 자동화 마스터 클래스.</p>
-</section>
-
-<!-- SEO Visual 2: 무인 마케팅 스쿨 Cardless Editorial List -->
-<div class="seo-visual-cards" role="img" aria-label="4-에이전트 루프 자동화 프로그램 코딩 스쿨 무인 마케팅 스쿨 — 신뢰할 수 있는 서비스" 
-     style="display:flex;flex-direction:column;gap:0;margin:40px 0;border-top:1px solid #e5e5e0;border-bottom:1px solid #e5e5e0;background:#faf9f6">
-  <div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
-    <div style="display:flex;align-items:center;gap:24px">
-      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 01 ]</span>
-      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">SEO 대책</span>
+  <header>
+    <div class="container nav-wrap">
+      <a href="/" class="logo">TOKYO <span>PRO-SCHOOL</span></a>
+      <nav>
+        <a href="#pipeline">// 01_pipeline</a>
+        <a href="#simulator">// 02_simulator</a>
+        <a href="#curriculum">// 03_curriculum</a>
+      </nav>
     </div>
-    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">4-에이전트 루프 자동화 프로그램 코딩 스쿨</span>
-  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:1px solid #e5e5e0;background:transparent">
-    <div style="display:flex;align-items:center;gap:24px">
-      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 02 ]</span>
-      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">집객 지원</span>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-badge">
+        <div class="pulse-square"></div>
+        AGENT_LOOP: ACTIVE // AUTO_OPTIMIZED
+      </div>
+      <h1>4-AGENT LOOP<br><span>PROGRAMMING</span> SCHOOL.</h1>
+      
+      <div class="hero-panel">
+        <p>인간 기획자나 단순 개발자의 노동 생산 한계를 초월하여, 독창적인 4개 AI 에이전트(Scouter, Architect, Ghost, Closer) 무한 루프 자동화 파이프라인을 구축하고 지휘하는 차세대 엔지니어링 실무 교육 과정.</p>
+        <a href="#simulator" class="btn-orange">콘솔 시뮬레이터 실행</a>
+      </div>
+    </section>
+
+    <section class="pipeline-section" id="pipeline">
+      <h2 class="section-title">4-Agent Loop Engine</h2>
+      <div class="pipeline-grid">
+        <div class="agent-card">
+          <div class="agent-num">01</div>
+          <h3 class="agent-name">Scouter</h3>
+          <p class="agent-desc">대량의 공통 크롤 소스 및 라이벌 키워드, 잠재 틈새 시장을 탐색하고 표적을 발굴하는 정찰 에이전트.</p>
+        </div>
+        <div class="agent-card">
+          <div class="agent-num">02</div>
+          <h3 class="agent-name">Architect</h3>
+          <p class="agent-desc">발굴된 표적을 타겟으로 세련되고 독자적인 반응형 상업예술 템플릿과 미적 그리드를 자동 배포하는 구축 에이전트.</p>
+        </div>
+        <div class="agent-card">
+          <div class="agent-num">03</div>
+          <h3 class="agent-name">Ghost</h3>
+          <p class="agent-desc">가상의 페르소나 모델(19종 어댑터)로 커뮤니티에 자동 침투하여 무해한 오가닉 트래픽을 주입하는 침투 에이전트.</p>
+        </div>
+        <div class="agent-card">
+          <div class="agent-num">04</div>
+          <h3 class="agent-name">Closer</h3>
+          <p class="agent-desc">인입된 대량 트래픽을 정밀 CPA, 세일즈 퍼널로 연계시켜 최대 화폐 가치로 자동 치환하는 monetization 에이전트.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="terminal-box" id="simulator">
+      <div class="terminal-header">
+        <div>AGENT_SIMULATOR_CORE_V.4.2</div>
+        <div>STABLE // PIPELINE_READY</div>
+      </div>
+      <div class="terminal-body">
+        <div class="terminal-line">
+          <span class="cyan">bpaas-academy@root:~$</span>
+          <span>npm run start-pipeline --campaign=tokyo-school</span>
+        </div>
+        <div class="terminal-line">
+          <span class="orange">[SCOUTER]</span>
+          <span>Searching competitor keyword gap... 84 high-value anchors found.</span>
+        </div>
+        <div class="terminal-line">
+          <span class="orange">[ARCHITECT]</span>
+          <span>Compiling custom Swiss Minimal theme for program-school.online... Done.</span>
+        </div>
+        <div class="terminal-line">
+          <span class="orange">[GHOST]</span>
+          <span>Spawning personas into programming communities. Injection scale: 1.2x.</span>
+        </div>
+        <div class="terminal-line">
+          <span class="orange">[CLOSER]</span>
+          <span>Routing incoming traffic to registration forms. Conversion rate: 4.8%.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <p style="color: var(--accent-orange); margin-bottom: 10px;">TOKYO PROGRAMMING SCHOOL // BPaaS EDUCATION</p>
+        <p style="color: var(--text-gray); font-size: 0.8rem;">도쿄 프로그래밍 스쿨 — 4개 에이전트 루프 자동화 전문 교육 기관. 본 페이지는 가상 예술 테마 포스트입니다.</p>
+      </div>
+      <div>
+        <div style="margin-bottom: 15px;">
+          <a href="#" class="footer-links">TERMS</a>
+          <a href="#" class="footer-links">PRIVACY</a>
+        </div>
+        <p style="color: var(--text-gray); font-size: 0.72rem;">© 2026 Tokyo Programming School. All rights reserved.</p>
+      </div>
     </div>
-    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">4-에이전트 루프 자동화 프로그램 코딩 스쿨</span>
-  </div><div style="display:flex;align-items:center;justify-content:space-between;padding:24px 16px;border-bottom:none;background:transparent">
-    <div style="display:flex;align-items:center;gap:24px">
-      <span style="font-family:monospace;font-size:1rem;color:#8a7355;letter-spacing:0.05em;font-weight:500">[ 03 ]</span>
-      <span style="font-family:serif;font-weight:400;font-size:1.2rem;color:#1c1c1e;letter-spacing:-0.02em">분석</span>
-    </div>
-    <span style="font-family:sans-serif;font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:#8a7355;font-weight:600">4-에이전트 루프 자동화 프로그램 코딩 스쿨</span>
-  </div>
-</div>
+  </footer>
 
-<section class="w" id="course">
-<div class="article">
-<h2>🎓 인력 한계를 돌파하는 시스템의 힘</h2>
-<p>글 한 편 작성에 2시간, 링크 빌딩에 3시간... 혼자서 하는 SEO는 금방 한계에 부딪힙니다. 프로그램스쿨은 인력을 'AI 시스템'으로 대체하여 24시간 쉬지 않고 트래픽을 생산하는 팩토리를 짓는 법을 가르칩니다.</p>
-<h3>누구를 위한 과정인가?</h3>
-<p>✓ 어필리에이트 수익을 극대화하고 싶은 부업러<br>
-✓ 트래픽 유입 채널을 대량으로 늘리고 싶은 1인 창업가<br>
-✓ 외주 비용 없이 자체 마케팅 팀(AI)을 보유하고 싶은 대표님</p>
-</div>
-</section>
-
-<section class="w" id="agents" style="padding-top:0">
-<div class="tg">■ 4-Agent 루프 마스터</div>
-<h2 class="st">핵심 교육 커리큘럼</h2>
-<div class="grid">
-<div class="card"><div class="icon">🔍</div><h3>Scouter 모듈 활용</h3><p>경쟁이 덜하고 단가가 높은 틈새(Niche) 키워드를 AI가 24시간 크롤링하여 발굴하는 법.</p></div>
-<div class="card"><div class="icon">🏗️</div><h3>Architect 기반 대량 생성</h3><p>마우스 클릭 몇 번으로 10개의 PBN 사이트를 동시 다발적으로 배포하고 호스팅하는 무코딩 기술.</p></div>
-<div class="card"><div class="icon">👻</div><h3>Ghost Persona 침투</h3><p>내 사이트로 트래픽을 몰아줄 AI 페르소나들을 대형 커뮤니티와 소셜 미디어에 자동으로 파견하는 법.</p></div>
-</div>
-
-<div class="seo-visual-divider" role="separator" aria-label="4-에이전트 루프 자동화 프로그램 코딩 스쿨 구분선" style="margin:32px 0;text-align:center;color:#e5e5e0;font-size:0.85rem;letter-spacing:0.5em">◆ ◆ ◆</div>
-</section>
-
-<footer><p>🎓 프로그램스쿨 | 1인 마케터를 위한 SEO 자동화 교육 과정</p><p style="margin-top:.3rem">© 2025 program-school. All rights reserved.</p></footer>
 </body>
 </html>
