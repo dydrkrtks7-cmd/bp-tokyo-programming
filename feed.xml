@@ -1,20 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[4-에이전트 루프 자동화 프로그램 코딩 스쿨 4-에이전트 루프 자동화 프로그램 코딩 스쿨]]></title>
+  <title><![CDATA[무인 마케팅 스쿨]]></title>
   <link>https://program-school.online</link>
-  <description><![CDATA[4-에이전트 루프 자동화 프로그램 코딩 스쿨 무인 마케팅 스쿨 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 13:34:24 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 13:34:24 GMT</lastBuildDate>
+  <description><![CDATA[무인 마케팅 스쿨 - 4-에이전트 루프 자동화 프로그램 코딩 스쿨 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Thu, 09 Jul 2026 00:26:39 GMT</pubDate>
+  <lastBuildDate>Thu, 09 Jul 2026 00:26:39 GMT</lastBuildDate>
   <atom:link href="https://program-school.online/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[4-에이전트 루프 자동화 프로그램 코딩 스쿨 4-에이전트 루프 자동화 프로그램 코딩 스쿨 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://program-school.online/</link>
-      <guid isPermaLink="true">https://program-school.online/</guid>
-      <description><![CDATA[4-에이전트 루프 자동화 프로그램 코딩 스쿨 무인 마케팅 스쿨 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 13:34:24 GMT</pubDate>
+      <title><![CDATA[현장 수첩: 4-에이전트 루프가 밝혀낸 RoPE theta 5000만의 미세한 배신]]></title>
+      <link>https://program-school.online/posts/field_note-001-1epj69u.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/field_note-001-1epj69u.html</guid>
+      <description><![CDATA[올해 4월, 롱 컨텍스트 점수 올리기에 RoPE theta 5000만이 신성처럼 등장했습니다. 다들 “무조건 올려야 한다”는 말에 동의하는 분위기였죠. 저는 다른 생각이 들었습니다. 검색 의도와 정확한 응답이 최우선인 셔츠룸 메인 1티어 랭킹이든, 프로덕션 LLM이든 ]]></description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[4-에이전트 루프 자동화 프로그램 코딩 스쿨에서 마주했던 그 버그의 진실]]></title>
+      <link>https://program-school.online/posts/guide-001-qeyktb.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/guide-001-qeyktb.html</guid>
+      <description><![CDATA[`apache-superset`, `superset-2.0`, `rc3-build`, `pypi-deleted`, `redis-memory-leak`, `open-source-vulnerability`:1.5, `security-researcher`:1.4 ## ## ]]></description>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[침묵하는 패치, 혹은 4 에이전트가 부르는 노래방의 유령]]></title>
+      <link>https://program-school.online/posts/major_compare-001-5d8dlz.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/major_compare-001-5d8dlz.html</guid>
+      <description><![CDATA[개발자들이 "안정화 릴리스"라고 부르는 것을 나는 보통 "조용히 묻어버린 시체"라고 칭합니다. 쿠버네티스 1.29 버전에서 특정 CSI 드라이버와 마주친 볼륨 마운트 경합 문제는, 공식 릴리스 노트 어디에도 적히지 않은 채 CVSS 9.8 등급의 균열을 남겼습니다. 보]]></description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[새벽 3 시 페이저가 가르쳐준 진실: 47 분의 침묵과 마포 셔츠룸의 생존법칙]]></title>
+      <link>https://program-school.online/posts/major_compare-001-c7614b.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/major_compare-001-c7614b.html</guid>
+      <description><![CDATA[새벽 3 시, 마포구 어느 빌딩 지하의 냉기보다 차가운 페이저 진동이 울렸습니다. 대다수 엔지니어는 "Lambda 콜드스타트"나 "리전 간 DNS 전파 지연"을 첫 번째 용의자로 지목하겠지만, 제 경험상 그건 그저 convenient한 거짓말일 뿐입니다. 진짜 범인은 ]]></description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[RC3 는 죽었다, 살아남은 것을 믿어라: Superset 삭제 사건의 이면과 4 에이전트 루프]]></title>
+      <link>https://program-school.online/posts/qa-002-1hwmy9v.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/qa-002-1hwmy9v.html</guid>
+      <description><![CDATA[[제목: 창작한 제목]코드보다 의도가 먼저다: 4-에이전트 루프 자동화 프로그램 코딩 스쿨이 감춘 삭제의 미학 모두가 최신 버전의 안정성을 맹신하지만, 실제로 가장 치명적인 오류는 '삭제된 기록' 속에 숨어 있습니다. Apache Superset 의 RC3 빌드가 Py]]></description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[예약 인스턴스 계약서 잉크도 마르기 전, 47 분의 지연이 가져온 붉은자]]></title>
+      <link>https://program-school.online/posts/qa-002-4t6c3o.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/qa-002-4t6c3o.html</guid>
+      <description><![CDATA[결재 도장을 찍는 순간까지 가격은 완벽했습니다. 하지만 서명이 끝난 지 얼마 지나지 않아 공지된 가격 인하 폭탄은 우리 팀의 분기 예산을 순식간에 붉은색으로 물들였죠. 문제는 가격 자체가 아니라, 그 변화가 실시간으로 반영되지 않는 '보이지 않는 지연'이었습니다. ##]]></description>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
