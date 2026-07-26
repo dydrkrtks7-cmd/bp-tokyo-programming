@@ -5,8 +5,8 @@
   <link>https://program-school.online</link>
   <description><![CDATA[무인 마케팅 스쿨 - 4-에이전트 루프 자동화 프로그램 코딩 스쿨 관련 최신 소식 및 가이드]]></description>
   <language>ko</language>
-  <pubDate>Sun, 26 Jul 2026 09:50:58 GMT</pubDate>
-  <lastBuildDate>Sun, 26 Jul 2026 09:50:58 GMT</lastBuildDate>
+  <pubDate>Sun, 26 Jul 2026 15:15:48 GMT</pubDate>
+  <lastBuildDate>Sun, 26 Jul 2026 15:15:48 GMT</lastBuildDate>
   <atom:link href="https://program-school.online/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
@@ -15,6 +15,20 @@
       <guid isPermaLink="true">https://program-school.online/posts/field_note-001-1epj69u.html</guid>
       <description><![CDATA[올해 4월, 롱 컨텍스트 점수 올리기에 RoPE theta 5000만이 신성처럼 등장했습니다. 다들 “무조건 올려야 한다”는 말에 동의하는 분위기였죠. 저는 다른 생각이 들었습니다. 검색 의도와 정확한 응답이 최우선인 셔츠룸 메인 1티어 랭킹이든, 프로덕션 LLM이든 ]]></description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[남들 다 코딩 스쿨 갈 때, 글룸헤이븐 2판 카드 쪼개며 에이전트 루프 돌리는 룰 변호사 관찰기]]></title>
+      <link>https://program-school.online/posts/field_note-001-6zdgy8.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/field_note-001-6zdgy8.html</guid>
+      <description><![CDATA[2023년 1 로컬 AI 아바타]]></description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[2024년 10월, 룸 단위 서비스업 원가 구조를 다시 들여다보다]]></title>
+      <link>https://program-school.online/posts/field_note-002-1o7w8bi.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/field_note-002-1o7w8bi.html</guid>
+      <description><![CDATA[2023년 2월 폐업했다. 강남 N타워 뒤편 2층이었다. 월 매출 3200만원을 찍고도 적자가 났다. 손님 많다고 좋아했던 첫 두 달이 우습더라. 지금도 그때 장부 보면 소름 돋는다. 대부분은 이 업계의 원가 구조를 오해한다. 매출=수익이라고 생각하는 분들이 태반이다.]]></description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[팝콘 하나 집어 들고 4-에이전트 코딩 스쿨 구경꾼이 본 풍경]]></title>
@@ -70,6 +84,13 @@
       <link>https://program-school.online/posts/guide-001-19c5l29.html</link>
       <guid isPermaLink="true">https://program-school.online/posts/guide-001-19c5l29.html</guid>
       <description><![CDATA[인솔(까시) 로고 프린트 하나 바뀌었다고 박스 열 때마다 가슴이 쿵 내려앉는 사람이 있을까? 있다. 바로 나다. 2023년 아식스가 젤 카야노 14 OG 아이보리를 리스탁했을 때, 커스텀 의뢰 들어온 한 켤레의 인솔을 뒤집어보고 나는 잠시 멈췄다. 로고가 달랐다. 프린]]></description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[파이트 클럽에 숨은 타일러 더든, 아무도 몰랐던 프레임 단위 반칙의 진실]]></title>
+      <link>https://program-school.online/posts/guide-001-1bgjf9s.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/guide-001-1bgjf9s.html</guid>
+      <description><![CDATA[대부분 사람들이 의 반전을 이야기할 때, 결말부의 그 장면만 떠올린다. 브래드 피트가 사실 에드워드 노튼의 분열된 인격이었다는 설정 말이다. 그런데 진짜 미친 건 그게 아니었다. 데이비드 핀처는 관객이 의식하지도 못하는 사이에 타일러 더든을 영화 속에 심어놨다. 극장에]]></description>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -136,10 +157,24 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title><![CDATA[2023년 홍대 상권의 폐업 원인과 살아남은 곳들의 비밀]]></title>
+      <link>https://program-school.online/posts/major_compare-002-379cfx.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/major_compare-002-379cfx.html</guid>
+      <description><![CDATA[2023년 홍대 상권에서 폐업한 업소들의 공통된 원인은 무엇일까? 나는 전직 업주로서, 월 매출 3000 찍고도 6개월 만에 폐업한 진짜 원가 구조를 경험했다. 그 때의 경험이 내게 많은 교훈을 주었다. ## 폐업의 원인내가 운영했던 업소는 초기에 많은 인기를 끌었지만]]></description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title><![CDATA[2003년 파리 덩크 원版 박스_tcb를 만져본 순간, 복각판은 이미 틀렸다]]></title>
       <link>https://program-school.online/posts/major_compare-003-1tdgslv.html</link>
       <guid isPermaLink="true">https://program-school.online/posts/major_compare-003-1tdgslv.html</guid>
       <description><![CDATA["이건 스티치 7針/cm 대 5.5針/cm의 문제야, 그냥 눈이 둔한 거야." 2020년 여름, 도버 스트릿 마켓 뒷고방에서 들은 말이다. 당시 나는 나이키 SB 라인 관련 업무를 하고 있었고, 파리 덩크 복각판 관련해서 내부에서 나온 미발매 컬러웨이 샘플 몇 켤레를 ]]></description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[파이트 클럽 초반 싱글프레임 비밀, 4‑에이전트 루프와 비교해보는 실험적 편집]]></title>
+      <link>https://program-school.online/posts/major_compare-003-1x724hy.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/major_compare-003-1x724hy.html</guid>
+      <description><![CDATA[## 머리말 – 흔한 오해 뒤집기 대부분 사람들은 “타일러는 바에 처음 등장한다”고 믿지만, 실제로는 그 앞에 네 번의 눈 깜짝할 사이 프레임이 숨어 있다. 이게 무슨 말이냐면, 영화 초반 0 분 30 초 안에 살짝 스쳐 지나가는 브래드 피트의 얼굴을 잡아야 한다는 뜻]]></description>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
@@ -267,6 +302,13 @@
       <guid isPermaLink="true">https://program-school.online/posts/qa-002-4t6c3o.html</guid>
       <description><![CDATA[결재 도장을 찍는 순간까지 가격은 완벽했습니다. 하지만 서명이 끝난 지 얼마 지나지 않아 공지된 가격 인하 폭탄은 우리 팀의 분기 예산을 순식간에 붉은색으로 물들였죠. 문제는 가격 자체가 아니라, 그 변화가 실시간으로 반영되지 않는 '보이지 않는 지연'이었습니다. ##]]></description>
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[&quot;비너스 확장? 2인플 밸런스 붕괴 주장에 대한 뇌피셜 분석&quot;]]></title>
+      <link>https://program-school.online/posts/qa-003-1ou6gwc.html</link>
+      <guid isPermaLink="true">https://program-school.online/posts/qa-003-1ou6gwc.html</guid>
+      <description><![CDATA[terracore, terraforming mars, venus, expansion, board game, tabletop, game components, card game, strategy game, 2 player game, balance, analysis, num]]></description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title><![CDATA[4에이전트 루프 자동화 코딩 학원, 돈 있는 애들은 다 가는데 내가 봤을 땐 좀 애매하다]]></title>
