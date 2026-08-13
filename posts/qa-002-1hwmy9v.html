@@ -1,20 +1,324 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>posts/qa-002-1hwmy9v - 4-에이전트 루프 자동화 프로그램 코딩 스쿨</title>
- <meta name="description" content="4-에이전트 루프 자동화 프로그램 코딩 스쿨에서 제공하는 조건별 선택 안내입니다. 처음 방문자를 위한 정보를 제공합니다.">
- <meta name="keywords" content="4-에이전트 루프, 자동화 프로그램, 코딩 스쿨">
- <link rel="canonical" href="https://program-school.online/posts/qa-002-1hwmy9v.html">
- <meta property="og:title" content="posts/qa-002-1hwmy9v - 4-에이전트 루프 자동화 프로그램 코딩 스쿨">
- <meta property="og:description" content="4-에이전트 루프 자동화 프로그램 코딩 스쿨에서 제공하는 조건별 선택 안내입니다. 처음 방문자를 위한 정보를 제공합니다.">
- <meta property="og:url" content="https://program-school.online/posts/qa-002-1hwmy9v.html">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>posts/qa-002-1hwmy9v - 4-에이전트 루프 자동화 프로그램 코딩 스쿨</title>
+  <meta name="description" content="4-에이전트 루프 자동화 프로그램 코딩 스쿨에서 제공하는 조건별 선택 안내입니다. 처음 방문자를 위한 정보를 제공합니다.">
+  <link rel="canonical" href="https://program-school.online/posts/qa-002-1hwmy9v.html">
+  <meta property="og:title" content="posts/qa-002-1hwmy9v - 4-에이전트 루프 자동화 프로그램 코딩 스쿨">
+  <meta property="og:description" content="4-에이전트 루프 자동화 프로그램 코딩 스쿨에서 제공하는 조건별 선택 안내입니다. 처음 방문자를 위한 정보를 제공합니다.">
+  <meta property="og:url" content="https://program-school.online/posts/qa-002-1hwmy9v.html">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <style>
+ :root {
+ --bg-dark: #08080a;
+ --bg-panel: #0f0f13;
+ --accent-orange: #ff5500;
+ --text-white: #ffffff;
+ --text-gray: #888899;
+ --border-brutal: 2px solid #ff5500;
+ --border-soft: 1px solid rgba(255, 85, 0, 0.2);
+ --font-mono: 'Share Tech Mono', monospace;
+ --font-swiss: 'Outfit', sans-serif;
+ --font-kr: 'Noto Sans KR', sans-serif;
+ }
+
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ background-color: var(--bg-dark);
+ color: var(--text-white);
+ font-family: var(--font-swiss), var(--font-kr);
+ line-height: 1.6;
+ letter-spacing: -0.01em;
+ overflow-x: hidden;
+ }
+
+ /* Grid Overlay background */
+ body::before {
+ content: '';
+ position: fixed;
+ top: 0; left: 0; right: 0; bottom: 0;
+ background-image: 
+ linear-gradient(rgba(255, 85, 0, 0.02) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(255, 85, 0, 0.02) 1px, transparent 1px);
+ background-size: 30px 30px;
+ z-index: -1;
+ pointer-events: none;
+ }
+
+ .container {
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 0 30px;
+ }
+
+ /* Brutalist Sticky Header */
+ header {
+ border-bottom: var(--border-brutal);
+ padding: 20px 0;
+ background: var(--bg-dark);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+
+ .nav-wrap {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+
+ .logo {
+ font-family: var(--font-mono);
+ font-weight: 900;
+ font-size: 1.3rem;
+ letter-spacing: 0.05em;
+ color: var(--accent-orange);
+ text-decoration: none;
+ text-transform: uppercase;
+ }
+
+ .logo span {
+ color: var(--text-white);
+ }
+
+ nav {
+ display: flex;
+ gap: 30px;
+ }
+
+ nav a {
+ font-family: var(--font-mono);
+ color: var(--text-gray);
+ text-decoration: none;
+ font-size: 0.9rem;
+ text-transform: uppercase;
+ transition: color 0.3s;
+ }
+
+ nav a:hover {
+ color: var(--accent-orange);
+ text-shadow: 0 0 5px var(--accent-orange);
+ }
+
+ /* Hero */
+ .hero {
+ padding: 100px 0 60px 0;
+ }
+
+ .hero-badge {
+ font-family: var(--font-mono);
+ font-size: 0.8rem;
+ color: var(--accent-orange);
+ margin-bottom: 20px;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ }
+
+ .pulse-square {
+ width: 8px; height: 8px;
+ background: var(--accent-orange);
+ animation: pulse 1s infinite alternate;
+ }
+
+ @keyframes pulse {
+ from { opacity: 0.4; }
+ to { opacity: 1; }
+ }
+
+ h1 {
+ font-size: clamp(2.2rem, 7vw, 4rem);
+ font-weight: 900;
+ text-transform: uppercase;
+ line-height: 1.0;
+ letter-spacing: -0.04em;
+ margin-bottom: 30px;
+ }
+
+ h1 span {
+ color: var(--accent-orange);
+ }
+
+ .hero-panel {
+ border: var(--border-brutal);
+ background: var(--bg-panel);
+ padding: 40px;
+ box-shadow: 8px 8px 0px var(--accent-orange);
+ margin-top: 40px;
+ }
+
+ .hero-panel p {
+ font-size: 1rem;
+ color: var(--text-white);
+ font-weight: 300;
+ line-height: 1.7;
+ }
+
+ .btn-orange {
+ display: inline-block;
+ border: var(--border-brutal);
+ background: var(--accent-orange);
+ color: var(--bg-dark);
+ padding: 14px 35px;
+ font-family: var(--font-mono);
+ font-weight: 900;
+ text-transform: uppercase;
+ text-decoration: none;
+ letter-spacing: 0.1em;
+ margin-top: 30px;
+ transition: all 0.2s;
+ }
+
+ .btn-orange:hover {
+ background: var(--bg-dark);
+ color: var(--accent-orange);
+ box-shadow: 0 0 15px var(--accent-orange);
+ }
+
+ /* 4-Agent Pipeline Nodule Diagram */
+ .pipeline-section {
+ padding: 80px 0;
+ border-top: var(--border-soft);
+ }
+
+ .section-title {
+ font-family: var(--font-mono);
+ font-size: 1.8rem;
+ color: var(--accent-orange);
+ text-transform: uppercase;
+ margin-bottom: 50px;
+ }
+
+ .pipeline-grid {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 20px;
+ }
+
+ .agent-card {
+ border: var(--border-soft);
+ background: var(--bg-panel);
+ padding: 30px 20px;
+ text-align: center;
+ position: relative;
+ }
+
+ .agent-card:hover {
+ border: var(--border-brutal);
+ box-shadow: 0 0 10px rgba(255, 85, 0, 0.15);
+ }
+
+ .agent-num {
+ font-family: var(--font-mono);
+ font-size: 2.5rem;
+ color: rgba(255, 85, 0, 0.15);
+ position: absolute;
+ top: 10px; right: 15px;
+ font-weight: 900;
+ }
+
+ .agent-name {
+ font-family: var(--font-mono);
+ font-size: 1.15rem;
+ color: var(--text-white);
+ margin-bottom: 15px;
+ text-transform: uppercase;
+ }
+
+ .agent-desc {
+ font-size: 0.8rem;
+ color: var(--text-gray);
+ line-height: 1.6;
+ }
+
+ /* Terminal School simulator */
+ .terminal-box {
+ background: var(--bg-panel);
+ border: var(--border-brutal);
+ padding: 40px;
+ font-family: var(--font-mono);
+ margin-bottom: 80px;
+ }
+
+ .terminal-header {
+ border-bottom: var(--border-soft);
+ padding-bottom: 15px;
+ margin-bottom: 25px;
+ color: var(--accent-orange);
+ display: flex;
+ justify-content: space-between;
+ font-size: 0.85rem;
+ }
+
+ .terminal-body {
+ font-size: 0.85rem;
+ color: var(--text-white);
+ }
+
+ .terminal-line {
+ margin-bottom: 10px;
+ display: flex;
+ gap: 15px;
+ }
+
+ .terminal-line span.cyan {
+ color: #00ffff;
+ }
+
+ .terminal-line span.orange {
+ color: var(--accent-orange);
+ }
+
+ /* Footer */
+ footer {
+ border-top: var(--border-brutal);
+ padding: 60px 0 40px 0;
+ text-align: left;
+ font-family: var(--font-mono);
+ }
+
+ .footer-grid {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ gap: 50px;
+ }
+
+ .footer-links a {
+ color: var(--accent-orange);
+ text-decoration: none;
+ margin-right: 20px;
+ }
+
+ @media (max-width: 768px) {
+ .pipeline-grid { grid-template-columns: 1fr; }
+ .footer-grid { grid-template-columns: 1fr; }
+ nav { display: none; }
+ }
+ </style>
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
- <div class="x-side-y5ya">
+  <div class="container">
+    <header>
+ <div class="container nav-wrap">
+ <a href="/" class="logo">TOKYO <span>PRO-SCHOOL</span></a>
+ <nav>
+ <a href="#pipeline">// 01_pipeline</a>
+ <a href="#simulator">// 02_simulator</a>
+ <a href="#curriculum">// 03_curriculum</a>
+ </nav>
+ </div>
+ </header>
+    <main>
+<div class="x-side-y5ya">
  <nav class="r-nav-2uuu">
  <ul>
  <li><a href="#">홈</a></li>
@@ -67,5 +371,12 @@
  </ul>
  <p>본 스쿨에서는 이러한 적용 사례에 대한 정보를 제공하며, 이를 통해 처음 방문자들이 4-에이전트 루프 자동화 프로그램을 선택할 때 도움이 되도록 합니다.</p>
  </div>
+        <nav class="post-pager" aria-label="글 이동">
+      <a class="post-pager__prev" href="../posts/qa-001-pfypn7.html">← 다들 에이전트 루프 돌릴 때 나는 박스 용지 밀도를 재고 있다</a>
+      <a class="post-pager__index" href="../posts.html">글 목록</a>
+      <a class="post-pager__next" href="../posts/qa-002-4t6c3o.html">예약 인스턴스 계약서 잉크도 마르기 전, 47 분의 지연이 가져온 붉은자 →</a>
+    </nav>
+    </main>
+  </div>
 </body>
 </html>

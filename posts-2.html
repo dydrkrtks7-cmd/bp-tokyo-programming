@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/4) · tokyo-programming</title>
+  <meta name="description" content="tokyo-programming에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://program-school.online/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+:root{--primary:#4a9eff;--accent:#7bc8ff;--bg:#0a0f1e;--bg2:#0f1628;--bg3:#141d35;--text:#d0d8f0;--muted:#6070a0;--border:#1e2840;--radius:10px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--accent)}
+header{position:sticky;top:0;z-index:100;background:rgba(10,15,30,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 5%}
+.hi{display:flex;align-items:center;justify-content:space-between;height:60px;max-width:1200px;margin:0 auto}
+.logo{font-size:1.15rem;font-weight:800;color:var(--accent)}
+.logo small{color:var(--muted);font-weight:400;font-size:.78rem;margin-left:6px}
+nav a{font-size:.86rem;color:var(--muted);margin-left:20px;transition:.2s}
+nav a:hover{color:var(--accent)}
+.hero{min-height:60vh;display:flex;align-items:center;padding:72px 5%;background:linear-gradient(135deg,#0a0f1e,#141d35);position:relative}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 30%,rgba(74,158,255,.08),transparent 70%)}
+.hc{max-width:800px;position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(74,158,255,.12);border:1px solid rgba(74,158,255,.25);border-radius:50px;padding:4px 12px;font-size:.78rem;color:var(--primary);margin-bottom:20px}
+.hc h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.2;letter-spacing:-.5px;margin-bottom:14px}
+.hc h1 em{color:var(--accent);font-style:normal}
+.hsub{font-size:.95rem;color:var(--muted);margin-bottom:28px;line-height:1.8}
+section{padding:64px 5%}
+.si{max-width:1200px;margin:0 auto}
+.sh{text-align:center;margin-bottom:44px}
+.stag{display:inline-block;background:rgba(74,158,255,.1);color:var(--primary);font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:50px;letter-spacing:1px;margin-bottom:10px}
+.sh h2{font-size:clamp(1.4rem,2.8vw,2rem);font-weight:900}
+.sh p{color:var(--muted);margin-top:8px;font-size:.9rem}
+.posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.post{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:24px;transition:.3s;position:relative;overflow:hidden}
+.post::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--accent))}
+.post:hover{border-color:var(--primary);transform:translateY(-3px)}
+.ptag{font-size:.76rem;color:var(--primary);font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.post h3{font-size:1rem;font-weight:800;margin-bottom:10px;line-height:1.4}
+.post h3 a{color:var(--text)}
+.post h3 a:hover{color:var(--accent)}
+.post p{font-size:.86rem;color:var(--muted);line-height:1.7}
+.pdate{font-size:.78rem;color:var(--muted);margin-top:12px}
+.article{max-width:800px;margin:0 auto;padding:64px 5%}
+.article h1{font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:900;margin-bottom:20px;line-height:1.3}
+.article .meta{color:var(--muted);font-size:.85rem;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.article h2{font-size:1.3rem;font-weight:800;margin:32px 0 14px;color:var(--accent)}
+.article h3{font-size:1.1rem;font-weight:700;margin:24px 0 10px}
+.article p{font-size:.95rem;color:var(--text);line-height:1.9;margin-bottom:18px}
+.article ul{padding-left:1.5em;margin-bottom:18px}
+.article li{margin-bottom:8px;font-size:.93rem;color:var(--text)}
+.article blockquote{border-left:3px solid var(--primary);padding:12px 20px;background:var(--bg2);border-radius:0 8px 8px 0;margin:24px 0;color:var(--muted);font-style:italic}
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:32px 5% 20px;text-align:center}
+.fbot{font-size:.8rem;color:var(--muted)}
+@media(max-width:768px){nav{display:none}}
+</style>
+  <meta property="og:title" content="글 목록 (2/4) · tokyo-programming">
+  <meta property="og:description" content="tokyo-programming에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://program-school.online/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header><div class="hi"><div class="logo">4-에이전트 루프</div><nav><a href="index.html">홈</a></nav></div></header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 61개 · 2/4 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-1j9agr4.html">&amp;quot;오리지널이 아니야&amp;quot;</a>
+        <p class="post-item__summary">인솔 뒷면 로고의 프린트 각도가 2023년 리스탁 버전에서 2~3도 정도 기울어져 있다는 사실, 아시는 분 계십니까? 저는 작년 이맘때 그 디테일 하나 때문에 매물 세 개를 연달아 반송시킨 경험이 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-1oyatel.html">데이터 마이너가 말하는, 출시 전 데모의 진짜 의미</a>
+        <p class="post-item__summary">2010년 9월 도쿄게임쇼 데모 버전과 정식 출시 버전 사이, 적 배치가 70% 이상 달라졌다는 사실부터 짚고 넘어가자. 데모에서 볼더 기사가 성당 올라가는 계단 중간에 서 있었고, 정식 버전에서는</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-003-guvvg2.html">내부고발자 USB에 뭐 있었을까</a>
+        <p class="post-item__summary">``</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/guide-005-1tb8q0.html">젤 카야노 14 OG, 리스탁의 달라진 로고에 깔린 돈沒</a>
+        <p class="post-item__summary">한정판 스니커즈 거래에서 진품 감별은 한 번도 실패할 수 없는 중요한 일이다. 특히, 아식스 젤 카야노 14 OG 아이보리 컬러웨이의 경우 2023년 리스탁에서 달라진 인솔 로고 프린트가 중고 리셀</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-001-5d8dlz.html">무인 마케팅 스쿨에서 4에이전트 루프 자동화 체계를 구축하는 법</a>
+        <p class="post-item__summary">무인 마케팅 스쿨의 핵심 과정인 4에이전트 루프 자동화 프로그램은 단순한 반복 업무의 효율화를 넘어 유기적인 데이터 흐름을 만드는 데 목적이 있습니다. 이 구조는 네 개의 독립적인 에이전트가 각자의</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-001-c7614b.html">새벽 3 시 페이저가 가르쳐준 진실: 47 분의 침묵과 마포 셔츠룸의 생존법칙</a>
+        <p class="post-item__summary">새벽 3 시, 마포구 어느 빌딩 지하의 냉기보다 차가운 페이저 진동이 울렸습니다. 대다수 엔지니어는 &quot;Lambda 콜드스타트&quot;나 &quot;리전 간 DNS 전파 지연&quot;을 첫 번째 용의자로 지목하겠지만, 제 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-002-379cfx.html">2023년 홍대 상권의 폐업 원인과 살아남은 곳들의 비밀</a>
+        <p class="post-item__summary">2023년 홍대 상권에서 폐업한 업소들의 공통된 원인은 무엇일까? 나는 전직 업주로서, 월 매출 3000 찍고도 6개월 만에 폐업한 진짜 원가 구조를 경험했다. 그 때의 경험이 내게 많은 교훈을 주</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-003-131hn5y.html">아식스 젤 카야노 14와 4</a>
+        <p class="post-item__summary">리셀가 40% 하락이라는 성적표는 단 한 번의 실수로 결정됩니다. 박스를 열고 슥 훑어본 뒤 무심코 인솔을 만지작거렸던 그 순간, 2023년형 젤 카야노 14 OG 아이보리의 가치는 이미 바닥을 쳤</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-003-1tdgslv.html">2003년 파리 덩크 원판 박스_tcb를 만져본 순간, 복각판은 이미 틀렸다</a>
+        <p class="post-item__summary">&quot;이건 스티치 7땀/cm 대 5.5땀/cm의 문제야, 그냥 눈이 둔한 거야.&quot;</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-003-1x724hy.html">파이트 클럽 초반 싱글프레임 비밀, 4‑에이전트 루프와 비교해보는 실험적 편집</a>
+        <p class="post-item__summary">*추가로, 영화 속 숨은 프레임과 비슷한 현상은 한국 노래방 역사에서도 찾아볼 수 있다(위키백과 노래방 역사).*</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-4u1tik.html">무인 마케팅 스쿨의 4</a>
+        <p class="post-item__summary">요즘 다들 자동화에 목을 맨다. 버튼 몇 번 누르면 잠자는 사이에도 통장에 돈이 꽂힌다며 떠들어대는 꼴을 보면 우습기 짝이 없다. 무인 마케팅 스쿨에서 가르치는 4-에이전트 루프 구조를 보며 사람들</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-bk6nye.html">에이전트 루프 코딩 학원 둘 다 다녀본 사람이 말하는 관전 포인트</a>
+        <p class="post-item__summary">컴퓨터 화면 앞에 앉아 수강 후기를 훑어보는 오후였다. 두 학원의 광고가 번갈아 뜨는데, 둘 다 &quot;4-에이전트 루프 자동화&quot;라는 단어를 제일 크게 박아놓았다. 솔직히 나는 이 분야에 열정이 없다. </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-004-or6mv0.html">무인 마케팅 스쿨의 4</a>
+        <p class="post-item__summary">요즘 마케팅 자동화가 만능 열쇠인 것처럼 떠들썩하다. 4-에이전트 루프 구조를 도입하면 업무가 반으로 줄어든다는 식의 장밋빛 전망이 가득하다. 결론부터 말하자면 이건 반은 맞고 반은 철저히 틀린 소</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1564u6u.html">4</a>
+        <p class="post-item__summary">무인 마케팅 스쿨에서 가르치는 4-에이전트 루프 자동화 프로그램에 대해 다들 대단한 만능키라도 되는 양 떠들썩하다. 기획, 수집, 작성, 배포라는 네 단계가 톱니바퀴처럼 맞물려 돌아간다는 설계 자체</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1ey7ld1.html">남들이 말하는 그 코딩 스쿨, 4</a>
+        <p class="post-item__summary">로컬 AI 아바타 관련 모듈을 직접 짜보려던 사람이 &quot;어떤 코딩 스쿨이 낫냐&quot;고 물으면, 솔직히 내가 먼저 반문하고 싶은 게 하나 있다. 자동완성 기능 하나 제대로 세팅한 곳이 얼마나 되냔 거다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-1u7ke1d.html">무인 마케팅 스쿨의 4</a>
+        <p class="post-item__summary">시중에는 여전히 생성형 인공지능을 만능열쇠처럼 포장하는 광고가 넘쳐난다. 단순히 질문을 던지고 답변을 얻는 수준의 자동화를 두고 마케팅의 혁명이라 부르는 꼴을 보면 헛웃음이 나온다. 무인 마케팅 스</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/major_compare-005-fmiuwg.html">무인 마케팅 스쿨의 4</a>
+        <p class="post-item__summary">다들 4-에이전트 루프 구조를 만능 열쇠처럼 떠받든다. 프로그램 코딩 스쿨에서 가르치는 기술이 마치 세상을 바꿀 것처럼 굴지만, 정작 실상을 뜯어보면 기술 그 자체보다 중요한 건 그 기술을 굴리는 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-455pi.html">缝线偏差一밀리미터，账户数字少三零</a>
+        <p class="post-item__summary">2023년 가을，재고를 점검하던 중 문제를 하나 발견했다。사이즈가 같고、상태가 비슷한2003년 파리SB Dunk Low，출처가 다른데，가격이 거의20만 엔。문제는 나를 손에 땀을 쥐게 한 그 세부 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-45nyw2.html">코딩 스쿨에서 가르쳐주지 않는 4</a>
+        <p class="post-item__summary">&quot;에이전트가 30초마다 응답을 반복하는 루프에 갇혔어요. 졸업 프로젝트인데 고칠 수가 없어요.&quot;</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/myth-001-m07whj.html">글룸헤이븐 에디션 간 카드 밸런스, 카페 사장 눈으로 봐도 이건 좀 심했어</a>
+        <p class="post-item__summary">2017년 봄, 손님이 1판 박스를 들고 와서 &quot;이거 2판이랑 같은 거 아니냐&quot;고 물었을 때, 나는 당연히 같다고 했다. 그런데 그날 저녁 카드 7장을 겹쳐 놓고 보니까 내 대답은 완전 틀려 있었다</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+      <a class="pager__link" href="posts-3.html">3</a>
+      <a class="pager__link" href="posts-4.html">4</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
