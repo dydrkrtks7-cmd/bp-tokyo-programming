@@ -28,7 +28,7 @@
  <main>
  <h1>아파치 수퍼셋의 리소스 최적화 문제</h1>
  <article>
- <p><IMAGE placement="hero" alt="Apache Superset RC3 버전 삭제 배경과 Redis 메모리 누수"><br><code>apache-superset</code>, <code>superset-2.0</code>, <code>rc3-build</code>, <code>pypi-deleted</code>, <code>redis-memory-leak</code>, <code>open-source-vulnerability</code>:1.5, <code>security-researcher</code>:1.4</p>
+ <p><br><code>apache-superset</code>, <code>superset-2.0</code>, <code>rc3-build</code>, <code>pypi-deleted</code>, <code>redis-memory-leak</code>, <code>open-source-vulnerability</code>:1.5, <code>security-researcher</code>:1.4</p>
 <h2>## Silent Kill 의 흔적</h2>
 <p>대부분의 개발자가 RC3 빌드를 잃어버린 이유를 CVE 번호로 찾지만, 실제 로그는 조금 더 잔혹했다. 2023 년 말에 PyPI 에서 사라진 이 버전은 메모리 누수 때문에 Redis 가 OOM 킬을 받아서 강제 종료된 경우였다. 보안 팀이 "CVSS 9.8"급 취약점을 숨기느라 릴리스 노트에서 은퇴를 시킨 건데, 그건 단순히 버그를 고친 게 아니라 리소스 최적화 비용 때문이다.</p>
 <p>보안 이슈가 아닌 인프라 한계였지만, 사용자에게는 같은 결과로 나타났다. 그래서 내가 본 기록에서는 <code>ERR OOM</code> 에러 코드보다 더 큰 충격이 있었다. 대부분의 자동화 프로그램은 보안 업데이트에 집중하지만, 실제 운영 환경에서의 자원 효율성을 간과하는 경우가 많다. 특히 4-에이전트 루프 시스템처럼 연쇄적인 작업이 실행될 때 메모리 누수가 누적되면 예상치 못한 다운타임이 발생한다.</p>
